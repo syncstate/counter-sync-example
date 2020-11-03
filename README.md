@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## Prerequisites
 
 - Node.js
-- Free port 80
+- Free port 8000
 
 ---
 
@@ -37,7 +37,12 @@ npm install
 
 ### 3. Run it
 
-#### `In the project directory`
+```
+cd server
+node index.js
+```
+
+Runs the server at port 8000 to establish socket connection with the client.\
 
 ```
 npm start/yarn start
@@ -45,11 +50,3 @@ npm start/yarn start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-```
-cd server
-node index.js
-```
-
-Runs the server\
-Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
