@@ -4,7 +4,7 @@
 
 A counter app example that syncs across multiple sessions.
 
-![logo](4ktfti.gif)
+![logo](Counter.gif)
 
 ---
 
@@ -22,7 +22,7 @@ Install node.js server from https://nodejs.org/en/download/
 
 ## Instructions
 
-### 1. Clone this git repository, if you haven't done already.
+### 1. Clone this git repository
 
 ```
 git clone https://github.com/syncstate/multi-user-counter-example.git
