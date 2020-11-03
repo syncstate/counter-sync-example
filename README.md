@@ -2,7 +2,7 @@
 
 ## About
 
-A counter app example that syncs across multiple sessions.
+A counter app example that syncs across multiple sessions and is persistent to new connections.
 
 ![logo](Counter.gif)
 
@@ -16,7 +16,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Prerequisites
 
-Install node.js server from https://nodejs.org/en/download/
+- Node.js
+- Free port 80
 
 ---
 
@@ -48,10 +49,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-#### `In the server folder`
-
 ```
-nodemon index.js
+cd server
+node index.js
 ```
 
 Runs the server\

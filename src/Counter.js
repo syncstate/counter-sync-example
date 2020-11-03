@@ -19,7 +19,7 @@ function Counter() {
 
   return (
     <div className="App">
-      <h1>Counter</h1>
+      <h1>Multi-User-Counter</h1>
       <button onClick={decrement}>-</button>&nbsp;&nbsp;
       {doc.counter}&nbsp;&nbsp;
       <button onClick={increment}>+</button>
