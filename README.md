@@ -42,11 +42,11 @@ cd server
 node index.js
 ```
 
-Runs the server at port 8000 to establish socket connection with the client.\
+`Runs the server at port 8000 to establish socket connection with the client.`
 
 ```
 npm start/yarn start
 ```
 
-Runs the app in the development mode.\
+`Runs the app in the development mode.`\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
