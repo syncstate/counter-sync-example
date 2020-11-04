@@ -5,8 +5,6 @@ is persistent to new connections.
 
 ![Multi-User-Counter](public/images/Counter.gif)
 
-### [View Github Code](https://github.com/syncstate/multi-user-counter-example)
-
 ## Instructions
 
 1.  ### Clone the github repository
