@@ -20,9 +20,14 @@ function Counter() {
   return (
     <div className="App">
       <h1>Multi-User-Counter</h1>
-      <button onClick={decrement}>-</button>&nbsp;&nbsp;
+      <button type="button" className="btn btn-primary" onClick={decrement}>
+        -
+      </button>
+      &nbsp;&nbsp;
       {doc.counter}&nbsp;&nbsp;
-      <button onClick={increment}>+</button>
+      <button type="button" className="btn btn-primary" onClick={increment}>
+        +
+      </button>
     </div>
   );
 }
