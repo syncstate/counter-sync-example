@@ -10,6 +10,7 @@ import * as remote from "@syncstate/remote-client";
 
 const store = createDocStore({ counter: 0 }, [remote.createInitializer()]);
 
+//enable remote plugin
 store.dispatch(remote.enableRemote("/counter"));
 
 //setting up socket connection with the server
@@ -17,10 +18,10 @@ var socket = io.connect("http://localhost:8000", {
   timeout: 100000,
 });
 
-// loading the app for the first time
+// send request to server to get patches whenever app reloads
 socket.emit("fetchDoc", "/counter");
 
-//whenever there is some attempt to change the store state
+//observe changes in store state
 store.observe("doc", "/counter", (counter, change) => {
   if (!change.origin) {
     //send json patch to the server

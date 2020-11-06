@@ -18,14 +18,19 @@ function Counter() {
   };
 
   return (
-    <div className="App">
-      <h1>Multi-User-Counter</h1>
-      <button type="button" className="btn btn-primary" onClick={decrement}>
+    <div className="main">
+      <h1>Multi User Counter</h1>
+      <br></br>
+      <p class="number">
+        {doc.counter}
+        <sub>/times</sub>
+      </p>
+      <br></br>
+      <button type="button" className="btn btn-danger" onClick={decrement}>
         -
       </button>
-      &nbsp;&nbsp;
-      {doc.counter}&nbsp;&nbsp;
-      <button type="button" className="btn btn-primary" onClick={increment}>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <button type="button" className="btn btn-danger" onClick={increment}>
         +
       </button>
     </div>
