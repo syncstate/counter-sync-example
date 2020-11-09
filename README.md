@@ -10,7 +10,7 @@ is persistent to new connections.
 1.  ### Clone the github repository
 
 ```bash
-git clone https://github.comsyncstate/multi-user-counter-example.git
+git clone https://github.com/syncstate/multi-user-counter-example.git
 ```
 
 2. ### Install local dependencies
