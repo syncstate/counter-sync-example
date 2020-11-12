@@ -1,52 +1,47 @@
 # Multi User Counter
 
-## About
+A counter app example that syncs across multiple sessions and
+is persistent to new connections.
 
-A counter app example that syncs across multiple sessions and is persistent to new connections.
-
-![logo](Counter.gif)
-
----
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine.
-
----
-
-## Prerequisites
-
-- Node.js
-- Free port 8000
-
----
+![Multi-User-Counter](public/images/Counter.gif)
 
 ## Instructions
 
-### 1. Clone this git repository
+1.  ### Clone the github repository
 
-```
+```bash
 git clone https://github.com/syncstate/multi-user-counter-example.git
 ```
 
-### 2. Install local npm dependencies
+2. ### Install local dependencies
 
-```
+```bash
+# NPM
 npm install
+
+# Yarn
+yarn install
 ```
 
-### 3. Run it
+3. ### Run the server
 
-```
+```bash
 cd server
 node index.js
 ```
 
-`Runs the server at port 8000 to establish socket connection with the client.`
+> Runs the server at port 8000 to establish socket connection with the client.
 
-```
-npm start/yarn start
+4. ### Run the App
+
+```bash
+# NPM
+npm start
+
+# Yarn
+yarn start
 ```
 
-`Runs the app in the development mode.`\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> Runs the app in the development mode.
+
+Open <a href="http://localhost:3000" >http://localhost:3000</a> to view it in the browser.
